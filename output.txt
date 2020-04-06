@@ -1,0 +1,153 @@
+SAMPLE INPUT
+6
+
+SAMPLE OUTPUT
+Initial status of tower:
+Tower A: 1	2 3 4 5 6	
+Tower B:
+Tower C:
+Tower D:
+Tower E:
+
+Sequence of disk
+
+Move disk 1 from a to e
+
+Tower A: 2	3 4 5 6	
+Tower B: 
+Tower C: 
+Tower D: 
+Tower E: 1	
+
+Move disk 2 from a to c
+
+Tower A: 3 4 5 6	
+Tower B: 
+Tower C: 2	
+Tower D: 
+Tower E: 1	
+
+Move disk 1 from e to c
+
+Tower A: 3	4 5 6	
+Tower B: 
+Tower C: 1 2	
+Tower D: 
+Tower E: 
+
+
+Move disk 3 from a to e
+
+Tower A: 4	5 6	
+Tower B: 
+Tower C: 1 2	
+Tower D: 
+Tower E: 3	
+
+Move disk 4 from a to d
+
+Tower A: 5	6	
+Tower B: 
+Tower C: 1 2	
+Tower D: 4	
+Tower E: 3	
+
+Move disk 3 from e to d
+
+Tower A: 5	6	
+Tower B: 
+Tower C: 1 2	
+Tower D: 3 4	
+Tower E: 
+
+
+Move disk 5 from a to e
+
+Tower A: 6	
+Tower B: 
+Tower C: 1 2	
+Tower D: 3 4	
+Tower E: 5	
+
+Move disk 6 from a to b
+
+Tower A: 
+Tower B: 6	
+Tower C: 1 2	
+Tower D: 3 4	
+Tower E: 5	
+
+Move disk 5 from e to b
+
+Tower A: 
+Tower B: 5 6	
+Tower C: 1 2	
+Tower D: 3 4	
+Tower E: 
+
+
+Move disk 3 from d to e
+
+Tower A: 
+Tower B: 5 6	
+Tower C: 1 2	
+Tower D: 4	
+Tower E: 3	
+
+Move disk 4 from d to b
+
+Tower A: 
+Tower B: 4 5 6	
+Tower C: 1 2	
+Tower D: 
+Tower E: 3	
+
+Move disk 3 from e to b
+
+Tower A: 
+Tower B: 3 4 5 6	
+Tower C: 1 2	
+Tower D: 
+Tower E: 
+
+
+Move disk 1 from c to e
+
+Tower A: 
+Tower B: 3 4 5 6	
+Tower C: 2	
+Tower D: 
+Tower E: 1	
+
+Move disk 2 from c to b
+
+Tower A: 
+Tower B: 2 3 4 5 6	
+Tower C: 
+Tower D: 
+Tower E: 1	
+
+Move disk 1 from e to b
+
+Tower A: 
+Tower B: 1 2 3 4 5 6	
+Tower C: 
+Tower D: 
+Tower E:
+
+TIME COMPLEXITY
+
+T(n)=5T(n/3)
+a=5 b=3 d=0
+5>(3^0)
+Θ( n^(1.46))
+T(1)=1
+T(2)=2.75
+T(3)=4.97
+T(6)=5T(2)=5(2.75)=13.755
+         6^(1.46)=13.7
+T(9)=5T(3)=24.85
+         9^(1.46)=24.728
+
+
+
