@@ -26,7 +26,7 @@ Output-
 
 
 Initial status of tower:
-Tower A: 1	 2 3 4 5 6	
+Tower A: 1 2 3 4 5 6	
 Tower B:
 Tower C:
 Tower D:
@@ -36,7 +36,7 @@ Sequence of disk
 
 Move disk 1 from a to e
 
-Tower A: 2	3 4 5 6	
+Tower A: 2 3 4 5 6	
 Tower B: 
 Tower C: 
 Tower D: 
@@ -52,7 +52,7 @@ Tower E: 1
 
 Move disk 1 from e to c
 
-Tower A: 3	4 5 6	
+Tower A: 3 4 5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 
@@ -61,7 +61,7 @@ Tower E:
 
 Move disk 3 from a to e
 
-Tower A: 4	5 6	
+Tower A: 4 5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 
@@ -69,7 +69,7 @@ Tower E: 3
 
 Move disk 4 from a to d
 
-Tower A: 5	6	
+Tower A: 5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 4	
@@ -77,7 +77,7 @@ Tower E: 3
 
 Move disk 3 from e to d
 
-Tower A: 5	6	
+Tower A: 5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 3 4	
