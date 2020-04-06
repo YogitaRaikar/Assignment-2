@@ -16,17 +16,32 @@ SWETHA BIJANAPALLI- Coding and testing
 DEKSHITHA- Coding and report making
 
 
+03- TOWER OF HANOI:
+For the given n number of disks, the way to accomplish the task in a minimum no of steps is:
+1.Move the top n-1 disks to intermediate tower.
+2.Move the bottom disk to destination tower.
+3.Finally, move the n-1 disks from the intermediate tower to the destination tower.
+
+Using this concept we have done our assignment of tower of hanoi using 5 towers. We have divided the n number of disks into 3 parts: top, middle and bottom and is done as follows:
+If there are 5 towers say A,B,C,D and E then,
+1.Move top n/3 disks from A to C using E
+2.Move middle n/3 disks from A to D using E
+3.Move bottom n/3 disks from A to B using E
+4.Move n/3 disks from D to B using E
+5.Move n/3 disks from C to B using E
+
+
 INSTRUCTION TO RUN THE PROGRAM
 
 Give the number of disks in tower A.
 
 DETAILS ON EXAMPLE INVOCATION AND OUTPUT
-Entered the number of disks as 6
+Entere the number of disks as 6
 Output-
 
 
 Initial status of tower:
-Tower A: 1 2 3 4 5 6	
+Tower A: 1	 2 3 4 5 6	
 Tower B:
 Tower C:
 Tower D:
@@ -36,7 +51,7 @@ Sequence of disk
 
 Move disk 1 from a to e
 
-Tower A: 2 3 4 5 6	
+Tower A: 2	3 4 5 6	
 Tower B: 
 Tower C: 
 Tower D: 
@@ -52,7 +67,7 @@ Tower E: 1
 
 Move disk 1 from e to c
 
-Tower A: 3 4 5 6	
+Tower A: 3	4 5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 
@@ -61,7 +76,7 @@ Tower E:
 
 Move disk 3 from a to e
 
-Tower A: 4 5 6	
+Tower A: 4	5 6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 
@@ -69,7 +84,7 @@ Tower E: 3
 
 Move disk 4 from a to d
 
-Tower A: 5 6	
+Tower A: 5	6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 4	
@@ -77,7 +92,7 @@ Tower E: 3
 
 Move disk 3 from e to d
 
-Tower A: 5 6	
+Tower A: 5	6	
 Tower B: 
 Tower C: 1 2	
 Tower D: 3 4	
